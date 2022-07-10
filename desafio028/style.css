@@ -21,9 +21,13 @@ body{
     height: 100vh;
 }
 
+div.container{
+    font-family: 'Inter', sans-serif;
+}
+
 header{
+    width: 100%;
     background-image: url('wallpaper.png');
-    position: relative;
     height: 800px;
     color: var(--white);
 }
@@ -43,11 +47,14 @@ header nav i{
 }
 
 header ul{
+    font-weight: 500;
+    font-size: 20px;
     display: flex;
     position: absolute;
     list-style: none;
     top: 60px;
     left: 576px;
+    cursor: pointer;
 }
 
 header ul li{
@@ -55,13 +62,48 @@ header ul li{
 }
 
 header .main-buttons{
+    display: flex;
     position: absolute;
-    top: 61px;
+    top: 49px;
     left: 1434px;
+    gap: 10px
 }
 
 article{
     position: absolute;
     top: 240px;
     left: 346px;
+}
+
+article h1{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 78px;
+    top: 240px;
+    left: 346px;
+}
+
+article p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 18px;
+    
+}
+
+button.btn-read-more{
+    margin-top: 60px;
+    
+}
+
+button{
+    text-transform: uppercase;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 4px;
+    height: 46px;
+    width: 163px;
+    cursor: pointer;
 }
