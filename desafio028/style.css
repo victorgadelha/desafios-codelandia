@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red: #da2535;
+    --gray: #515151;
+    --dark: #0b1421;
+    --white: #f9f9f9;
+    --main-font: 'Inter', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    background-image: url('wallpaper.png');
+    height: 800px;
+    color: var(--white);
+}
+
+header nav{
+    display: flex;
+    padding: 3rem 0 3rem 10rem;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0 8rem;
+}
+
+header li{
+    display: flex;
+    padding: 1.5rem 1rem 0 0;
+}
+
+header button.btn-enter{
+    margin-left: 20rem
+}
+
+article{
+    padding-left: 10rem;
+}
+
+article h1{
+    text-transform: uppercase;
+}
+
+article p{
+    padding: 1.5rem 0;
+    text-align: justify;
+}
+
+button{
+    height: 2.5rem;
+    width: 8.5rem;
+    border-radius: 5px;
+    background-color: var(--red);
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: bolder;
+}
