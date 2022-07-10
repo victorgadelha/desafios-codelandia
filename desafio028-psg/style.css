@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red: #da2535;
+    --gray: #515151;
+    --dark: #0b1421;
+    --white: #f9f9f9;
+    --main-font: 'Inter', sans-serif;
+
+}
+
+body{
+    background-color: var(--white);
+    width: 100%;
+    height: 100vh;
+}
+
+div.container{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-image: url('imagens/wallpaper.png');
+    width: 100%;
+    height: 800px;
+    color: var(--white);
+}
+
+header nav {
+    display: flex;
+    position: absolute;
+    top: 60px;
+
+}
+
+header nav i{
+    position: absolute;
+    top: 40px;
+    left: 346px;
+
+}
+
+header ul{
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    top: 60px;
+    left: 576px;
+    cursor: pointer;
+}
+
+header ul li{
+    padding: 0 48px;
+}
+
+header .main-buttons{
+    display: flex;
+    position: absolute;
+    top: 49px;
+    left: 1434px;
+    gap: 10px
+}
+
+article{
+    position: absolute;
+    top: 240px;
+    left: 346px;
+}
+
+article h1{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 78px;
+    top: 240px;
+    left: 346px;
+}
+
+article p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 18px;
+    margin-bottom: 60px;
+    
+}
+
+.wallpaper2 article a{
+    position: absolute;
+    text-transform: uppercase;
+    color: var(--red);
+    font-weight: 600;
+    font-size: 18px;
+    top: 387px;
+    left: 40px;
+}
+
+
+
+.last-score{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    top: 925px;
+    left: 559px;
+    gap: 34px;
+    margin-bottom: 125px;
+}
+
+.wallpaper2{
+    position: absolute;
+    background-image: url('imagens/wallapaper2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    width: 1920px;
+    height: 800px;
+    top: 1200px;
+}
+
+.wallpaper2 article i{
+    position: absolute;
+    top: 49px;
+    left: 40px;
+}
+
+.welcome{
+    position: absolute;
+    width: 1020px;
+    height: 449px;
+    top: 176px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.6px;
+    background-color: var(--white);
+    color: var(--dark);
+    left: 450px;
+
+}
+
+.welcome h3{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 40px;
+    left: 59px;
+    
+}
+
+.welcome p{
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    top: 103px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+button{
+    text-transform: uppercase;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 4px;
+    height: 46px;
+    width: 163px;
+    border: none;
+    cursor: pointer;
+}
+
