@@ -105,8 +105,6 @@ article p{
     left: 40px;
 }
 
-
-
 .last-score{
     display: flex;
     position: absolute;
@@ -173,6 +171,72 @@ article p{
     font-size: 18px;
 }
 
+.last-news{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    top: 2220px;
+    gap: 20px;
+}
+
+span{
+    display: flex;
+    gap: 181px;
+    color: var(--gray);
+}
+
+h1{
+    font-weight: 500px;
+    font-size: 20px;
+    max-width: 395px;
+    margin-top: 16px;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 16px;
+    height: 20px;
+    width: 127px;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+h6{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+footer{
+    position: absolute;
+    top: 2853px;
+    background-color: var(--dark);
+    width: 1920px;
+    height: 432px;
+}
+
+section.links{
+    display: flex;
+    margin-left: 346px;
+    gap: 205px;
+}
+
+section.links h1{
+    margin-top: 56px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+section.links li{
+    margin-top: 23px;
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 20px;
+}
 
 button{
     text-transform: uppercase;
@@ -183,5 +247,20 @@ button{
     width: 163px;
     border: none;
     cursor: pointer;
+}
+
+.btn-enter{
+    background-color: transparent;
+}
+
+.btn-view-more{
+    position: absolute;
+    margin-top: 88px;
+    left: 881px;
+}
+
+a{
+    color: var(--white);
+    text-decoration: none;
 }
 
