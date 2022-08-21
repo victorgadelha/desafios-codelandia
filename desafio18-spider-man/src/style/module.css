@@ -1,4 +1,8 @@
 
+.nav-menu__logo-marvel {
+    width: 7rem;
+}
+
 .trailer__logo-spider-man-container {
     display: flex;
     justify-content: center;
