@@ -1,0 +1,47 @@
+.container {
+    background-image: url(../images/spider-man-miles-morales.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background: rgba(29, 29, 29, 0.5);
+    
+}
+
+.nav-menu__hamburguer {
+    display: block;
+}
+
+.nav-menu__bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.trailer {
+    height: 667px;
+}
+
+.nav-social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: rgba(29, 29, 29, 0.63);
+}
+
+.nav-social-media__list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}

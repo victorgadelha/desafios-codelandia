@@ -1,0 +1,24 @@
+
+.trailer__logo-spider-man-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35rem;
+    width: 100%;
+}
+
+.trailer__logo-spider-man {
+    width: 90%;
+}
+
+.trailer__button {
+    display: block;
+    margin-top: 3rem;
+    width: 33.5rem;
+    height: 6.5rem;
+    background: #1D1D1D;
+    border: 1.78286px solid #EC111A;
+    color: #F9F9F9;
+    font-size: 2rem;
+}
