@@ -1,14 +1,20 @@
 
 .nav-menu__logo-marvel-container {
-    width: 5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-menu__logo-spider-container {
-    width: 5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-menu__hamburguer-container {
-    width: 5rem;
+    width: 10rem;
 }
 
 .trailer__logo-spider-man-container {
