@@ -1,6 +1,14 @@
 
-.nav-menu__logo-marvel {
-    width: 7rem;
+.nav-menu__logo-marvel-container {
+    width: 5rem;
+}
+
+.nav-menu__logo-spider-container {
+    width: 5rem;
+}
+
+.nav-menu__hamburguer-container {
+    width: 5rem;
 }
 
 .trailer__logo-spider-man-container {
@@ -8,7 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 35rem;
+    height: 55rem;
     width: 100%;
 }
 
@@ -16,13 +24,15 @@
     width: 90%;
 }
 
-.trailer__button {
+.trailer__button { 
     display: block;
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 33.5rem;
     height: 6.5rem;
     background: #1D1D1D;
     border: 1.78286px solid #EC111A;
     color: #F9F9F9;
     font-size: 2rem;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 20%);
 }
+

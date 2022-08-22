@@ -1,8 +1,7 @@
 .container {
     background-image: url(../images/spider-man-miles-morales.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    background-position: right -30rem top;
 }
 
 .nav-menu {
