@@ -12,5 +12,9 @@
 
 .nav-menu__nav-list-container.active {
     top: 70px;
+    height: 7rem
 }
-    
+
+.nav-menu__nav-list.active {
+    opacity: 1;
+}

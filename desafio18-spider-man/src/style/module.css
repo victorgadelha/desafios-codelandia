@@ -15,6 +15,7 @@
 
 .nav-menu__hamburguer-container {
     width: 10rem;
+    cursor: pointer;
 }
 
 .nav-menu__hamburguer {
@@ -32,7 +33,7 @@
 
 .nav-menu__nav-list {
     padding: 1rem;
-    opacity: 0;
+    cursor: pointer;
 }
 
 .trailer__logo-spider-man-container {
