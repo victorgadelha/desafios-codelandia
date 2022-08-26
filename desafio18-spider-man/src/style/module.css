@@ -34,6 +34,29 @@
 .nav-menu__nav-list {
     padding: 1rem;
     cursor: pointer;
+    opacity: 0;
+}
+
+@media (max-width: 2400px) {
+    .nav-menu__logo-marvel-container {
+        width: 30rem;
+    }
+
+    .nav-menu__logo-marvel {
+        width: 70%
+    }
+
+    .nav-menu__logo-spider-container {
+        width: 20rem;
+    }
+
+    .nav-menu__logo-spider {
+        width: 45%;
+    }
+
+    .nav-menu__hamburguer-container {
+        display: none;
+    }
 }
 
 .trailer__logo-spider-man-container {
@@ -47,6 +70,23 @@
 
 .trailer__logo-spider-man {
     width: 90%;
+}
+
+@media (max-width: 2400px) {
+    .trailer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trailer__logo-spider-man-container {
+        height: 100rem;
+        width: 150rem;
+    }
+    
+    .trailer__logo-spider-man {
+        width: 65%;
+    }
 }
 
 .trailer__button { 
