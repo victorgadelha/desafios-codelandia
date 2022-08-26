@@ -4,7 +4,7 @@
     background-position: right -30rem top;
 }
 
-@media (max-width: 2400px) {
+@media (min-width: 1920px) {
     .container {
         background-image: url(../images/spider-man-miles-morales.png);
         background-size: cover;
@@ -18,57 +18,42 @@
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 10vh;
     align-items: center;
     background: rgba(29, 29, 29, 0.5);
 }
 
-.nav-menu__nav-list-container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    top: 15rem;
-    width: 100%;
-    height: 0;
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 400;
-    background: rgba(29, 29, 29, 0.5);
-    transition: 0.4s;
-}
-
-@media (max-width: 2400px) {
+@media (min-width: 1920px) {
     .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         height: 15rem;
     }
     
     .nav-menu__nav-list-container {
-        position: absolute;
+        position: unset;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        top: 15rem;
-        width: 100%;
-        height: 10rem;
+        top: 0;
         color: white;
         font-size: 2.5rem;
         font-weight: 400;
-        background: rgba(29, 29, 29, 0.5);
+        background: none;
         transition: 0.4s;
     }
 }
 
 
 .trailer {
-    height: 667px;
+    height: 80vh;
 }
 
-@media (max-width: 2400px) {
+@media (min-width: 2400px) {
     .trailer {
-        min-height: 100vh
+        height: 100vh
     }
 
 }
@@ -77,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 10vh;
     background: rgba(29, 29, 29, 0.63);
 }
 
