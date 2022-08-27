@@ -4,58 +4,23 @@
     background-position: right -30rem top;
 }
 
-@media (min-width: 1920px) {
-    .container {
-        background-image: url(../images/spider-man-miles-morales.png);
+@media (min-width: 768px) {
+    .container {    
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
-        min-height: 100vh;
     }
-}
+}   
 
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    height: 100px;
     align-items: center;
     background: rgba(29, 29, 29, 0.5);
 }
 
-@media (min-width: 1920px) {
-    .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 15rem;
-    }
-    
-    .nav-menu__nav-list-container {
-        position: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        top: 0;
-        color: white;
-        font-size: 2.5rem;
-        font-weight: 400;
-        background: none;
-        transition: 0.4s;
-    }
-}
-
-
 .trailer {
     height: 80vh;
-}
-
-@media (min-width: 2400px) {
-    .trailer {
-        height: 100vh
-    }
-
 }
 
 .nav-social-media {
@@ -71,4 +36,25 @@
     justify-content: space-between;
     align-items: center;
     gap: 37px;
+}
+
+@media (min-width: 768px) {
+    .nav-social-media{
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background: rgba(29, 29, 29, 0.63);
+    } 
+
+    
+    .nav-social-media__list-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 37px;
+    }
 }
