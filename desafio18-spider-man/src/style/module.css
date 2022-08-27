@@ -61,20 +61,20 @@
     transition: 0.4s;
 }
 
-@media  (min-width: 768px) { 
+@media  (min-width: 1230px) { 
     .nav-menu__hamburguer-container {
         display: none;
     }
 
     .nav-menu__logo-marvel-container {
-        width: 50rem;
+        width: 80rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
     .nav-menu__logo-marvel {
-        width: 25%;
+        width: 15%;
     }
     
     .nav-menu__logo-spider-container {
@@ -94,15 +94,20 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        width: 50rem;
+        width: 80rem;
         height: 100px;
         color: white;
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 400;
         background: rgba(29, 29, 29, 0.5);
         transition: 0.4s;
     }
     
+    .nav-menu__nav-list {
+        padding: 3rem;
+        cursor: pointer;
+        opacity: 1;
+    }
     
  }
 
@@ -116,7 +121,7 @@
 }
 
 .trailer__logo-spider-man {
-    width: 90%;
+    width: 35rem;
 }
 
 .trailer__button { 
@@ -131,15 +136,18 @@
     clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1230px) {
     .trailer__logo-spider-man-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 20rem;
-        height: 55rem;
+        height: 70rem;
         width: 100%;
     }
     
     .trailer__logo-spider-man {
-        width: 50%;
+        width: 80rem;
     }
 }
 
@@ -180,7 +188,7 @@
     width: 100%;
 }
 
-@media  (min-width: 768px) {
+@media  (min-width: 1230px) {
     .nav-social-media__perfil-container {
         width: 10rem;
     }

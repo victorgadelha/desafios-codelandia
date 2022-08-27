@@ -4,7 +4,7 @@
     background-position: right -30rem top;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1230px) {
     .container {    
         background-size: cover;
         background-position: center;
@@ -38,7 +38,7 @@
     gap: 37px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1230px) {
     .nav-social-media{
         position: absolute;
         top: 0;
@@ -50,7 +50,6 @@
         background: rgba(29, 29, 29, 0.63);
     } 
 
-    
     .nav-social-media__list-container {
         justify-content: center;
         flex-direction: column;
