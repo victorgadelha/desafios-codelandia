@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     background-image: url(../images/spider-man-miles-morales.png);
     background-repeat: no-repeat;
     background-position: right -30rem top;
@@ -41,12 +42,11 @@
 @media (min-width: 1230px) {
     .nav-social-media{
         position: absolute;
-        top: 0;
-        height: 100vh;
+        top: 100px;
+        height: calc(100vh - 100px);
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
         background: rgba(29, 29, 29, 0.63);
     } 
 

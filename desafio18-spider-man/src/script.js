@@ -5,6 +5,8 @@ const navLink = document.querySelectorAll('.nav-menu__nav-list')
 navMenu.addEventListener('click', () => {
     navMenu.classList.toggle('active')
     navList.classList.toggle('active')
-    navLink.classList.toggle('active')
-    
+    navLink.forEach(link => {
+        link.classList.toggle('active')
+    });
 })
+
