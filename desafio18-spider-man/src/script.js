@@ -17,13 +17,12 @@ navMenu.addEventListener('click', () => {
 })
 
 button.addEventListener('click', () => {
-    modal.classList.toggle('hidden')
-    exitButton.classList.toggle('hidden')
+    modal.classList.toggle('hide')
+    trailer.play()
 })
 
 exitButton.addEventListener('click', () => {
-    modal.classList.toggle('hidden')
+    modal.classList.toggle('hide')
     trailer.currentTime = 0;
     trailer.pause()
-    
 })
