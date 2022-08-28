@@ -128,14 +128,15 @@
 .trailer__button { 
     display: block;
     margin-top: 5rem;
-    width: 33.5rem;
+    width: 30.5rem;
     height: 6.5rem;
     background: #1D1D1D;
     border: 1.78286px solid #EC111A;
     color: #F9F9F9;
-    font-size: 2rem;
-    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 20%);
+    font-size: 2.5rem;
+    cursor: pointer;
 }
+
 
 @media (min-width: 1230px) {
     .trailer__logo-spider-man-container {

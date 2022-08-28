@@ -68,6 +68,7 @@
     width: 100%;
     background: rgba(29, 29, 29, 0.63);
     transition: .4s;
+    opacity: 0;
 }
 
 .modal-container__trailer {
@@ -77,6 +78,7 @@
 .modal-container__exit {
     position: absolute;
     display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -86,14 +88,11 @@
     height: 40px;
     border-radius: 50%;
     border: .5px solid white;
+    cursor: pointer;
 }
 
-.modal-container__exit-bar {
-    display: block;
-    width: 30px;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
+.fa-regular .fa-circle-x {
+   color: white;
 }
 
 .modal-container__exit-bar:nth-child(1) {
@@ -103,4 +102,6 @@
 .modal-container__exit-bar:nth-child(2) {
     transform: translateY(-2px) rotate(-45deg);
 }
+
+
 

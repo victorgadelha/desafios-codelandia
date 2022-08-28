@@ -17,3 +17,11 @@
 .nav-menu__nav-list.active {
     opacity: 1;
 }
+
+.modal-container.hidden {
+    opacity: 1;
+}
+
+.modal-container__exit.hidden {
+    display: block;
+}
